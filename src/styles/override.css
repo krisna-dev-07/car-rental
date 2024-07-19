@@ -1,0 +1,87 @@
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+.uk-h5,
+.uk-h6,
+.uk-heading-2xlarge,
+.uk-heading-large,
+.uk-heading-medium,
+.uk-heading-small,
+.uk-heading-xlarge,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.uk-navbar-item,
+.uk-navbar-nav > li > a,
+.uk-navbar-toggle {
+  font-family: inherit;
+  color: inherit;
+}
+
+.uk-navbar-nav > li > a {
+  color: #cbd5e0;
+}
+
+.uk-navbar-nav > li > a.active {
+  color: #edf2f7;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-gap {
+  grid-gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .sm\:grid {
+    display: grid;
+  }
+  .sm\:grid-col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .sm\:grid-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .sm\:grid-col-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .sm\:grid-gap {
+    grid-gap: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid {
+    display: grid;
+  }
+  .md\:grid-col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .md\:grid-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .md\:grid-col-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .md\:grid-gap {
+    grid-gap: 1.5rem;
+  }
+}
